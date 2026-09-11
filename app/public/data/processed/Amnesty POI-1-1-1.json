@@ -1,0 +1,1869 @@
+{
+  "scene_id": "Amnesty POI-1-1-1",
+  "has_hr": true,
+  "has_lr": true,
+  "hr": {
+    "scene_id": "Amnesty POI-1-1-1",
+    "type": "HR",
+    "rasters": {
+      "pan": {
+        "filepath": "data\\HR\\Amnesty POI-1-1-1\\Amnesty POI-1-1-1_pan.tiff",
+        "crs": "EPSG:4326",
+        "width": 1054,
+        "height": 1054,
+        "bands": 1,
+        "dtype": "uint16",
+        "nodata": null,
+        "bounds": {
+          "left": 0.0,
+          "bottom": 1054.0,
+          "right": 1054.0,
+          "top": 0.0
+        },
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "ps": {
+        "filepath": "data\\HR\\Amnesty POI-1-1-1\\Amnesty POI-1-1-1_ps.tiff",
+        "crs": "EPSG:4326",
+        "width": 1054,
+        "height": 1054,
+        "bands": 4,
+        "dtype": "uint16",
+        "nodata": null,
+        "bounds": {
+          "left": 0.0,
+          "bottom": 1054.0,
+          "right": 1054.0,
+          "top": 0.0
+        },
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "rgbn": {
+        "filepath": "data\\HR\\Amnesty POI-1-1-1\\Amnesty POI-1-1-1_rgbn.tiff",
+        "crs": "EPSG:4326",
+        "width": 263,
+        "height": 263,
+        "bands": 4,
+        "dtype": "uint16",
+        "nodata": null,
+        "bounds": {
+          "left": 0.0,
+          "bottom": 263.0,
+          "right": 263.0,
+          "top": 0.0
+        },
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    },
+    "previews": {
+      "pan": "data\\processed\\Amnesty POI-1-1-1\\hr_pan.png",
+      "ps_rgb": "data\\processed\\Amnesty POI-1-1-1\\hr_ps_rgb.png",
+      "rgb_original": "data\\processed\\Amnesty POI-1-1-1\\hr_rgb_original.png",
+      "rgbn_rgb": "data\\processed\\Amnesty POI-1-1-1\\hr_rgbn_rgb.png",
+      "rgbn_falsecolor": "data\\processed\\Amnesty POI-1-1-1\\hr_rgbn_falsecolor.png"
+    }
+  },
+  "lr": {
+    "scene_id": "Amnesty POI-1-1-1",
+    "type": "LR",
+    "candidates": {
+      "1": {
+        "candidate_number": 1,
+        "rasters": {
+          "l2a_data": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-1-L2A_data.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 12,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-1-CLM.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_probability": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-1-CLP.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "data_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-1-dataMask.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          }
+        },
+        "previews": {
+          "rgb": "data\\processed\\Amnesty POI-1-1-1\\candidate_1\\lr_rgb.png",
+          "falsecolor": "data\\processed\\Amnesty POI-1-1-1\\candidate_1\\lr_falsecolor.png",
+          "cloud_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_1\\lr_cloud_mask.png",
+          "cloud_probability": "data\\processed\\Amnesty POI-1-1-1\\candidate_1\\lr_cloud_probability.png",
+          "data_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_1\\lr_data_mask.png"
+        },
+        "metadata_json": {
+          "cloud_cover": 0.0,
+          "target_date": "2017-11-01",
+          "delta": "-13",
+          "area": 2.5,
+          "datetime": "2017-10-19"
+        }
+      },
+      "10": {
+        "candidate_number": 10,
+        "rasters": {
+          "l2a_data": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-10-L2A_data.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 12,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-10-CLM.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_probability": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-10-CLP.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "data_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-10-dataMask.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          }
+        },
+        "previews": {
+          "rgb": "data\\processed\\Amnesty POI-1-1-1\\candidate_10\\lr_rgb.png",
+          "falsecolor": "data\\processed\\Amnesty POI-1-1-1\\candidate_10\\lr_falsecolor.png",
+          "cloud_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_10\\lr_cloud_mask.png",
+          "cloud_probability": "data\\processed\\Amnesty POI-1-1-1\\candidate_10\\lr_cloud_probability.png",
+          "data_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_10\\lr_data_mask.png"
+        },
+        "metadata_json": {
+          "cloud_cover": 0.03,
+          "target_date": "2017-11-01",
+          "delta": "42",
+          "area": 2.5,
+          "datetime": "2017-12-13"
+        }
+      },
+      "11": {
+        "candidate_number": 11,
+        "rasters": {
+          "l2a_data": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-11-L2A_data.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 12,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-11-CLM.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_probability": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-11-CLP.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "data_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-11-dataMask.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          }
+        },
+        "previews": {
+          "rgb": "data\\processed\\Amnesty POI-1-1-1\\candidate_11\\lr_rgb.png",
+          "falsecolor": "data\\processed\\Amnesty POI-1-1-1\\candidate_11\\lr_falsecolor.png",
+          "cloud_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_11\\lr_cloud_mask.png",
+          "cloud_probability": "data\\processed\\Amnesty POI-1-1-1\\candidate_11\\lr_cloud_probability.png",
+          "data_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_11\\lr_data_mask.png"
+        },
+        "metadata_json": {
+          "cloud_cover": 0.0,
+          "target_date": "2017-11-01",
+          "delta": "77",
+          "area": 2.5,
+          "datetime": "2018-01-17"
+        }
+      },
+      "12": {
+        "candidate_number": 12,
+        "rasters": {
+          "l2a_data": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-12-L2A_data.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 12,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-12-CLM.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_probability": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-12-CLP.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "data_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-12-dataMask.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          }
+        },
+        "previews": {
+          "rgb": "data\\processed\\Amnesty POI-1-1-1\\candidate_12\\lr_rgb.png",
+          "falsecolor": "data\\processed\\Amnesty POI-1-1-1\\candidate_12\\lr_falsecolor.png",
+          "cloud_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_12\\lr_cloud_mask.png",
+          "cloud_probability": "data\\processed\\Amnesty POI-1-1-1\\candidate_12\\lr_cloud_probability.png",
+          "data_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_12\\lr_data_mask.png"
+        },
+        "metadata_json": {
+          "cloud_cover": 0.15,
+          "target_date": "2017-11-01",
+          "delta": "37",
+          "area": 2.5,
+          "datetime": "2017-12-08"
+        }
+      },
+      "13": {
+        "candidate_number": 13,
+        "rasters": {
+          "l2a_data": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-13-L2A_data.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 12,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-13-CLM.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_probability": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-13-CLP.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "data_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-13-dataMask.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          }
+        },
+        "previews": {
+          "rgb": "data\\processed\\Amnesty POI-1-1-1\\candidate_13\\lr_rgb.png",
+          "falsecolor": "data\\processed\\Amnesty POI-1-1-1\\candidate_13\\lr_falsecolor.png",
+          "cloud_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_13\\lr_cloud_mask.png",
+          "cloud_probability": "data\\processed\\Amnesty POI-1-1-1\\candidate_13\\lr_cloud_probability.png",
+          "data_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_13\\lr_data_mask.png"
+        },
+        "metadata_json": {
+          "cloud_cover": 5.16,
+          "target_date": "2017-11-01",
+          "delta": "7",
+          "area": 2.5,
+          "datetime": "2017-11-08"
+        }
+      },
+      "14": {
+        "candidate_number": 14,
+        "rasters": {
+          "l2a_data": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-14-L2A_data.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 12,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-14-CLM.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_probability": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-14-CLP.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "data_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-14-dataMask.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          }
+        },
+        "previews": {
+          "rgb": "data\\processed\\Amnesty POI-1-1-1\\candidate_14\\lr_rgb.png",
+          "falsecolor": "data\\processed\\Amnesty POI-1-1-1\\candidate_14\\lr_falsecolor.png",
+          "cloud_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_14\\lr_cloud_mask.png",
+          "cloud_probability": "data\\processed\\Amnesty POI-1-1-1\\candidate_14\\lr_cloud_probability.png",
+          "data_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_14\\lr_data_mask.png"
+        },
+        "metadata_json": {
+          "cloud_cover": 0.05,
+          "target_date": "2017-11-01",
+          "delta": "47",
+          "area": 2.5,
+          "datetime": "2017-12-18"
+        }
+      },
+      "15": {
+        "candidate_number": 15,
+        "rasters": {
+          "l2a_data": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-15-L2A_data.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 12,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-15-CLM.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_probability": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-15-CLP.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "data_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-15-dataMask.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          }
+        },
+        "previews": {
+          "rgb": "data\\processed\\Amnesty POI-1-1-1\\candidate_15\\lr_rgb.png",
+          "falsecolor": "data\\processed\\Amnesty POI-1-1-1\\candidate_15\\lr_falsecolor.png",
+          "cloud_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_15\\lr_cloud_mask.png",
+          "cloud_probability": "data\\processed\\Amnesty POI-1-1-1\\candidate_15\\lr_cloud_probability.png",
+          "data_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_15\\lr_data_mask.png"
+        },
+        "metadata_json": {
+          "cloud_cover": 0.0,
+          "target_date": "2017-11-01",
+          "delta": "82",
+          "area": 2.5,
+          "datetime": "2018-01-22"
+        }
+      },
+      "16": {
+        "candidate_number": 16,
+        "rasters": {
+          "l2a_data": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-16-L2A_data.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 12,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-16-CLM.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_probability": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-16-CLP.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "data_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-16-dataMask.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          }
+        },
+        "previews": {
+          "rgb": "data\\processed\\Amnesty POI-1-1-1\\candidate_16\\lr_rgb.png",
+          "falsecolor": "data\\processed\\Amnesty POI-1-1-1\\candidate_16\\lr_falsecolor.png",
+          "cloud_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_16\\lr_cloud_mask.png",
+          "cloud_probability": "data\\processed\\Amnesty POI-1-1-1\\candidate_16\\lr_cloud_probability.png",
+          "data_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_16\\lr_data_mask.png"
+        },
+        "metadata_json": {
+          "cloud_cover": 7.69,
+          "target_date": "2017-11-01",
+          "delta": "-8",
+          "area": 2.5,
+          "datetime": "2017-10-24"
+        }
+      },
+      "2": {
+        "candidate_number": 2,
+        "rasters": {
+          "l2a_data": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-2-L2A_data.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 12,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-2-CLM.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_probability": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-2-CLP.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "data_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-2-dataMask.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          }
+        },
+        "previews": {
+          "rgb": "data\\processed\\Amnesty POI-1-1-1\\candidate_2\\lr_rgb.png",
+          "falsecolor": "data\\processed\\Amnesty POI-1-1-1\\candidate_2\\lr_falsecolor.png",
+          "cloud_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_2\\lr_cloud_mask.png",
+          "cloud_probability": "data\\processed\\Amnesty POI-1-1-1\\candidate_2\\lr_cloud_probability.png",
+          "data_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_2\\lr_data_mask.png"
+        },
+        "metadata_json": {
+          "cloud_cover": 0.0,
+          "target_date": "2017-11-01",
+          "delta": "17",
+          "area": 2.5,
+          "datetime": "2017-11-18"
+        }
+      },
+      "3": {
+        "candidate_number": 3,
+        "rasters": {
+          "l2a_data": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-3-L2A_data.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 12,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-3-CLM.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_probability": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-3-CLP.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "data_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-3-dataMask.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          }
+        },
+        "previews": {
+          "rgb": "data\\processed\\Amnesty POI-1-1-1\\candidate_3\\lr_rgb.png",
+          "falsecolor": "data\\processed\\Amnesty POI-1-1-1\\candidate_3\\lr_falsecolor.png",
+          "cloud_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_3\\lr_cloud_mask.png",
+          "cloud_probability": "data\\processed\\Amnesty POI-1-1-1\\candidate_3\\lr_cloud_probability.png",
+          "data_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_3\\lr_data_mask.png"
+        },
+        "metadata_json": {
+          "cloud_cover": 0.0,
+          "target_date": "2017-11-01",
+          "delta": "-23",
+          "area": 2.5,
+          "datetime": "2017-10-09"
+        }
+      },
+      "4": {
+        "candidate_number": 4,
+        "rasters": {
+          "l2a_data": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-4-L2A_data.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 12,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-4-CLM.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_probability": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-4-CLP.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "data_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-4-dataMask.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          }
+        },
+        "previews": {
+          "rgb": "data\\processed\\Amnesty POI-1-1-1\\candidate_4\\lr_rgb.png",
+          "falsecolor": "data\\processed\\Amnesty POI-1-1-1\\candidate_4\\lr_falsecolor.png",
+          "cloud_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_4\\lr_cloud_mask.png",
+          "cloud_probability": "data\\processed\\Amnesty POI-1-1-1\\candidate_4\\lr_cloud_probability.png",
+          "data_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_4\\lr_data_mask.png"
+        },
+        "metadata_json": {
+          "cloud_cover": 0.0,
+          "target_date": "2017-11-01",
+          "delta": "27",
+          "area": 2.5,
+          "datetime": "2017-11-28"
+        }
+      },
+      "5": {
+        "candidate_number": 5,
+        "rasters": {
+          "l2a_data": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-5-L2A_data.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 12,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-5-CLM.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_probability": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-5-CLP.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "data_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-5-dataMask.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          }
+        },
+        "previews": {
+          "rgb": "data\\processed\\Amnesty POI-1-1-1\\candidate_5\\lr_rgb.png",
+          "falsecolor": "data\\processed\\Amnesty POI-1-1-1\\candidate_5\\lr_falsecolor.png",
+          "cloud_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_5\\lr_cloud_mask.png",
+          "cloud_probability": "data\\processed\\Amnesty POI-1-1-1\\candidate_5\\lr_cloud_probability.png",
+          "data_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_5\\lr_data_mask.png"
+        },
+        "metadata_json": {
+          "cloud_cover": 0.0,
+          "target_date": "2017-11-01",
+          "delta": "-33",
+          "area": 2.5,
+          "datetime": "2017-09-29"
+        }
+      },
+      "6": {
+        "candidate_number": 6,
+        "rasters": {
+          "l2a_data": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-6-L2A_data.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 12,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-6-CLM.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_probability": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-6-CLP.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "data_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-6-dataMask.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          }
+        },
+        "previews": {
+          "rgb": "data\\processed\\Amnesty POI-1-1-1\\candidate_6\\lr_rgb.png",
+          "falsecolor": "data\\processed\\Amnesty POI-1-1-1\\candidate_6\\lr_falsecolor.png",
+          "cloud_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_6\\lr_cloud_mask.png",
+          "cloud_probability": "data\\processed\\Amnesty POI-1-1-1\\candidate_6\\lr_cloud_probability.png",
+          "data_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_6\\lr_data_mask.png"
+        },
+        "metadata_json": {
+          "cloud_cover": 0.01,
+          "target_date": "2017-11-01",
+          "delta": "-18",
+          "area": 2.5,
+          "datetime": "2017-10-14"
+        }
+      },
+      "7": {
+        "candidate_number": 7,
+        "rasters": {
+          "l2a_data": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-7-L2A_data.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 12,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-7-CLM.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_probability": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-7-CLP.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "data_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-7-dataMask.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          }
+        },
+        "previews": {
+          "rgb": "data\\processed\\Amnesty POI-1-1-1\\candidate_7\\lr_rgb.png",
+          "falsecolor": "data\\processed\\Amnesty POI-1-1-1\\candidate_7\\lr_falsecolor.png",
+          "cloud_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_7\\lr_cloud_mask.png",
+          "cloud_probability": "data\\processed\\Amnesty POI-1-1-1\\candidate_7\\lr_cloud_probability.png",
+          "data_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_7\\lr_data_mask.png"
+        },
+        "metadata_json": {
+          "cloud_cover": 0.0,
+          "target_date": "2017-11-01",
+          "delta": "67",
+          "area": 2.5,
+          "datetime": "2018-01-07"
+        }
+      },
+      "8": {
+        "candidate_number": 8,
+        "rasters": {
+          "l2a_data": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-8-L2A_data.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 12,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-8-CLM.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_probability": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-8-CLP.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "data_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-8-dataMask.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          }
+        },
+        "previews": {
+          "rgb": "data\\processed\\Amnesty POI-1-1-1\\candidate_8\\lr_rgb.png",
+          "falsecolor": "data\\processed\\Amnesty POI-1-1-1\\candidate_8\\lr_falsecolor.png",
+          "cloud_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_8\\lr_cloud_mask.png",
+          "cloud_probability": "data\\processed\\Amnesty POI-1-1-1\\candidate_8\\lr_cloud_probability.png",
+          "data_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_8\\lr_data_mask.png"
+        },
+        "metadata_json": {
+          "cloud_cover": 3.95,
+          "target_date": "2017-11-01",
+          "delta": "2",
+          "area": 2.5,
+          "datetime": "2017-11-03"
+        }
+      },
+      "9": {
+        "candidate_number": 9,
+        "rasters": {
+          "l2a_data": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-9-L2A_data.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 12,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-9-CLM.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "cloud_probability": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-9-CLP.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          },
+          "data_mask": {
+            "filepath": "data\\LR\\Amnesty POI-1-1-1\\L2A\\Amnesty POI-1-1-1-9-dataMask.tiff",
+            "crs": "EPSG:4326",
+            "width": 159,
+            "height": 157,
+            "bands": 1,
+            "dtype": "float32",
+            "nodata": 0.0,
+            "bounds": {
+              "left": 13.149952430965635,
+              "bottom": 11.777710980299387,
+              "right": 13.164460606373925,
+              "top": 11.792004313888725
+            },
+            "transform": [
+              9.124638621565948e-05,
+              0.0,
+              13.149952430965635,
+              0.0,
+              -9.104034133336191e-05,
+              11.792004313888725
+            ]
+          }
+        },
+        "previews": {
+          "rgb": "data\\processed\\Amnesty POI-1-1-1\\candidate_9\\lr_rgb.png",
+          "falsecolor": "data\\processed\\Amnesty POI-1-1-1\\candidate_9\\lr_falsecolor.png",
+          "cloud_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_9\\lr_cloud_mask.png",
+          "cloud_probability": "data\\processed\\Amnesty POI-1-1-1\\candidate_9\\lr_cloud_probability.png",
+          "data_mask": "data\\processed\\Amnesty POI-1-1-1\\candidate_9\\lr_data_mask.png"
+        },
+        "metadata_json": {
+          "cloud_cover": 0.04,
+          "target_date": "2017-11-01",
+          "delta": "-43",
+          "area": 2.5,
+          "datetime": "2017-09-19"
+        }
+      }
+    }
+  }
+}
